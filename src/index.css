@@ -1,0 +1,67 @@
+html{
+  width: auto;
+}
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+h2 {
+  padding: 5vh;
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #43a047;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: start;
+  gap: 2vw;
+}
+
+/* gallery */
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+.gallery svg:hover {
+  box-shadow: 0px 0px 2px 1px black;
+  cursor: pointer;
+}
+
+.gallery svg {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.p-3 {
+  padding: 30px;
+}
